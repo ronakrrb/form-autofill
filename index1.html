@@ -1,0 +1,506 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>:: AUTO ::</title>
+<style type="text/css">
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #3C9;
+	margin-top: 25px;
+	color: #F00;
+}
+.heads {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+<table width="1006" border="0" align="center" cellpadding="0" cellspacing="0">
+<form id="railways" name="railways">
+  <tr>
+    <th scope="col"><table width="1280" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td colspan="10" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="74" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td width="219" align="center" valign="middle" bgcolor="#FFFFFF" class="heads">Passanger Name</td>
+        <td width="98" align="center" valign="middle" bgcolor="#FFFFFF" class="heads">Age</td>
+        <td width="133" align="center" valign="middle" bgcolor="#FFFFFF" class="heads">Sex</td>
+        <td width="151" align="center" valign="middle" bgcolor="#FFFFFF" class="heads">Berth</td>
+        <td width="123" align="center" valign="middle" bgcolor="#FFFFFF" class="heads">Food</td>
+        <td width="209" align="center" valign="middle" bgcolor="#FFFFFF" class="heads">ID Card Type</td>
+        <td width="170" align="center" valign="middle" bgcolor="#FFFFFF" class="heads">ID Number</td>
+        <td width="70" align="center" valign="middle" bgcolor="#FFFFFF" class="heads">Senior</td>
+        <td width="33" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td colspan="8" align="center" valign="middle" bgcolor="#FFFFFF"><hr /></td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="40" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <input name="psgnName" type="text" id="psgnName" placeholder="Passenger #1" size="25" />
+        </td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <input name="psgnAge" type="text" id="psgnAge" size="6" /></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <select name="psgnGender" id="psgnGender">
+            		<option selected="selected" value=" ">Select</option>
+							<option value="M">Male</option>
+							<option value="F">Female</option>
+			</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+         			 <select name="berthChoice" id="berthChoice">
+           					<option selected="selected" value="  ">No Preference</option>
+							<option value="LB">LOWER</option>
+							<option value="MB">MIDDLE</option>
+							<option value="UB">UPPER</option>
+							<option value="SL">SIDE LOWER</option>
+							<option value="SU">SIDE UPPER</option>
+					</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          			<select name="foodChoice" id="foodChoice">
+         					<option value=" ">Select</option>
+                			<option value="V">Veg</option>
+                			<option value="N">Non-Veg</option>
+              		</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <select name="idCardType" id="idCardType">
+          		<option selected="selected" value="NULL_IDCARD">Select ID Card Type</option>
+					<option value="DRIVING_LICENSE">Driving Licence</option>
+					<option value="PASSPORT">Passport</option>
+					<option value="PANCARD">PAN Card</option>
+					<option value="VOTER_ICARD">Voter ID-card</option>
+					<option value="GOVT_ICARD">Govt Issued ID-Card</option>
+					<option value="STUDENT_ICARD">Student ID-Card</option>
+					<option value="BANK_PASSBOOK">Bank Passbook</option>
+					<option value="CREDIT_CARD">Credit card with Photo</option>
+					<option value="UNIQUE_ICARD">Aadhaar ID</option>
+			</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          	<input type="text" name="idCardNumber" id="idCardNumber" /></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+        	<input type="checkbox" name="concessionOpt" id="concessionOpt" />
+          </td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="40" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <input name="psgnName1" type="text" id="psgnName1" placeholder="Passenger #2" size="25" />
+        </td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <input name="psgnAge1" type="text" id="psgnAge1" size="6" /></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <select name="psgnGender1" id="psgnGender1">
+            		<option selected="selected" value=" ">Select</option>
+							<option value="M">Male</option>
+							<option value="F">Female</option>
+			</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+         			 <select name="berthChoice1" id="berthChoice1">
+           					<option selected="selected" value="  ">No Preference</option>
+							<option value="LB">LOWER</option>
+							<option value="MB">MIDDLE</option>
+							<option value="UB">UPPER</option>
+							<option value="SL">SIDE LOWER</option>
+							<option value="SU">SIDE UPPER</option>
+					</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          			<select name="foodChoice1" id="foodChoice1">
+         					<option value=" ">Select</option>
+                			<option value="V">Veg</option>
+                			<option value="N">Non-Veg</option>
+              		</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <select name="idCardType1" id="idCardType1">
+          		<option selected="selected" value="NULL_IDCARD">Select ID Card Type</option>
+					<option value="DRIVING_LICENSE">Driving Licence</option>
+					<option value="PASSPORT">Passport</option>
+					<option value="PANCARD">PAN Card</option>
+					<option value="VOTER_ICARD">Voter ID-card</option>
+					<option value="GOVT_ICARD">Govt Issued ID-Card</option>
+					<option value="STUDENT_ICARD">Student ID-Card</option>
+					<option value="BANK_PASSBOOK">Bank Passbook</option>
+					<option value="CREDIT_CARD">Credit card with Photo</option>
+					<option value="UNIQUE_ICARD">Aadhaar ID</option>
+			</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          	<input type="text" name="idCardNumber1" id="idCardNumber1" /></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+        	<input type="checkbox" name="concessionOpt1" id="concessionOpt1" />
+          </td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="40" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <input name="psgnName2" type="text" id="psgnName2" placeholder="Passenger #3" size="25" />
+        </td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <input name="psgnAge2" type="text" id="psgnAge2" size="6" /></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <select name="psgnGender2" id="psgnGender2">
+            		<option selected="selected" value=" ">Select</option>
+							<option value="M">Male</option>
+							<option value="F">Female</option>
+			</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+         			 <select name="berthChoice2" id="berthChoice2">
+           					<option selected="selected" value="  ">No Preference</option>
+							<option value="LB">LOWER</option>
+							<option value="MB">MIDDLE</option>
+							<option value="UB">UPPER</option>
+							<option value="SL">SIDE LOWER</option>
+							<option value="SU">SIDE UPPER</option>
+					</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          			<select name="foodChoice2" id="foodChoice2">
+         					<option value=" ">Select</option>
+                			<option value="V">Veg</option>
+                			<option value="N">Non-Veg</option>
+              		</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <select name="idCardType2" id="idCardType2">
+          		<option selected="selected" value="NULL_IDCARD">Select ID Card Type</option>
+					<option value="DRIVING_LICENSE">Driving Licence</option>
+					<option value="PASSPORT">Passport</option>
+					<option value="PANCARD">PAN Card</option>
+					<option value="VOTER_ICARD">Voter ID-card</option>
+					<option value="GOVT_ICARD">Govt Issued ID-Card</option>
+					<option value="STUDENT_ICARD">Student ID-Card</option>
+					<option value="BANK_PASSBOOK">Bank Passbook</option>
+					<option value="CREDIT_CARD">Credit card with Photo</option>
+					<option value="UNIQUE_ICARD">Aadhaar ID</option>
+			</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          	<input type="text" name="idCardNumber2" id="idCardNumber2" /></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+        	<input type="checkbox" name="concessionOpt2" id="concessionOpt2" />
+          </td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="40" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <input name="psgnName3" type="text" id="psgnName3" placeholder="Passenger #4" size="25" />
+        </td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <input name="psgnAge3" type="text" id="psgnAge3" size="6" /></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <select name="psgnGender3" id="psgnGender3">
+            		<option selected="selected" value=" ">Select</option>
+							<option value="M">Male</option>
+							<option value="F">Female</option>
+			</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+         			 <select name="berthChoice3" id="berthChoice3">
+           					<option selected="selected" value="  ">No Preference</option>
+							<option value="LB">LOWER</option>
+							<option value="MB">MIDDLE</option>
+							<option value="UB">UPPER</option>
+							<option value="SL">SIDE LOWER</option>
+							<option value="SU">SIDE UPPER</option>
+					</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          			<select name="foodChoice3" id="foodChoice3">
+         					<option value=" ">Select</option>
+                			<option value="V">Veg</option>
+                			<option value="N">Non-Veg</option>
+              		</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <select name="idCardType3" id="idCardType3">
+          		<option selected="selected" value="NULL_IDCARD">Select ID Card Type</option>
+					<option value="DRIVING_LICENSE">Driving Licence</option>
+					<option value="PASSPORT">Passport</option>
+					<option value="PANCARD">PAN Card</option>
+					<option value="VOTER_ICARD">Voter ID-card</option>
+					<option value="GOVT_ICARD">Govt Issued ID-Card</option>
+					<option value="STUDENT_ICARD">Student ID-Card</option>
+					<option value="BANK_PASSBOOK">Bank Passbook</option>
+					<option value="CREDIT_CARD">Credit card with Photo</option>
+					<option value="UNIQUE_ICARD">Aadhaar ID</option>
+			</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          	<input type="text" name="idCardNumber3" id="idCardNumber3" /></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+        	<input type="checkbox" name="concessionOpt3" id="concessionOpt3" />
+          </td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="40" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <input name="psgnName4" type="text" id="psgnName4" placeholder="Passenger #5" size="25" />
+        </td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <input name="psgnAge4" type="text" id="psgnAge4" size="6" /></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <select name="psgnGender4" id="psgnGender4">
+            		<option selected="selected" value=" ">Select</option>
+							<option value="M">Male</option>
+							<option value="F">Female</option>
+			</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+         			 <select name="berthChoice4" id="berthChoice4">
+           					<option selected="selected" value="  ">No Preference</option>
+							<option value="LB">LOWER</option>
+							<option value="MB">MIDDLE</option>
+							<option value="UB">UPPER</option>
+							<option value="SL">SIDE LOWER</option>
+							<option value="SU">SIDE UPPER</option>
+					</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          			<select name="foodChoice4" id="foodChoice4">
+         					<option value=" ">Select</option>
+                			<option value="V">Veg</option>
+                			<option value="N">Non-Veg</option>
+              		</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <select name="idCardType4" id="idCardType4">
+          		<option selected="selected" value="NULL_IDCARD">Select ID Card Type</option>
+					<option value="DRIVING_LICENSE">Driving Licence</option>
+					<option value="PASSPORT">Passport</option>
+					<option value="PANCARD">PAN Card</option>
+					<option value="VOTER_ICARD">Voter ID-card</option>
+					<option value="GOVT_ICARD">Govt Issued ID-Card</option>
+					<option value="STUDENT_ICARD">Student ID-Card</option>
+					<option value="BANK_PASSBOOK">Bank Passbook</option>
+					<option value="CREDIT_CARD">Credit card with Photo</option>
+					<option value="UNIQUE_ICARD">Aadhaar ID</option>
+			</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          	<input type="text" name="idCardNumber4" id="idCardNumber4" /></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+        	<input type="checkbox" name="concessionOpt4" id="concessionOpt4" />
+          </td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="40" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <input name="psgnName5" type="text" id="psgnName5" placeholder="Passenger #6" size="25" />
+        </td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <input name="psgnAge5" type="text" id="psgnAge5" size="6" /></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <select name="psgnGender5" id="psgnGender5">
+            		<option selected="selected" value=" ">Select</option>
+							<option value="M">Male</option>
+							<option value="F">Female</option>
+			</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+         			 <select name="berthChoice5" id="berthChoice5">
+           					<option selected="selected" value="  ">No Preference</option>
+							<option value="LB">LOWER</option>
+							<option value="MB">MIDDLE</option>
+							<option value="UB">UPPER</option>
+							<option value="SL">SIDE LOWER</option>
+							<option value="SU">SIDE UPPER</option>
+					</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          			<select name="foodChoice5" id="foodChoice5">
+         					<option value=" ">Select</option>
+                			<option value="V">Veg</option>
+                			<option value="N">Non-Veg</option>
+              		</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <select name="idCardType5" id="idCardType5">
+          		<option selected="selected" value="NULL_IDCARD">Select ID Card Type</option>
+					<option value="DRIVING_LICENSE">Driving Licence</option>
+					<option value="PASSPORT">Passport</option>
+					<option value="PANCARD">PAN Card</option>
+					<option value="VOTER_ICARD">Voter ID-card</option>
+					<option value="GOVT_ICARD">Govt Issued ID-Card</option>
+					<option value="STUDENT_ICARD">Student ID-Card</option>
+					<option value="BANK_PASSBOOK">Bank Passbook</option>
+					<option value="CREDIT_CARD">Credit card with Photo</option>
+					<option value="UNIQUE_ICARD">Aadhaar ID</option>
+			</select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          	<input type="text" name="idCardNumber5" id="idCardNumber5" /></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+        	<input type="checkbox" name="concessionOpt5" id="concessionOpt5" />
+          </td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td colspan="8" align="center" valign="middle" bgcolor="#FFFFFF"><hr /></td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="30" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF" class="heads">Child Passanger's Name</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF" class="heads">Age</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF" class="heads">Sex</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td colspan="2" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF"></td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td colspan="3" align="center" valign="middle" bgcolor="#FFFFFF"><hr /></td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td colspan="2" align="center" valign="bottom" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="40" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+        <input name="infantName" type="text" id="infantName" placeholder="Child Passenger #1" size="25" /></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <select name="infantAge" id="infantAge">
+                <option value="-1" selected="selected">Select</option>
+				<option value="0">Below one year</option>
+				<option value="1">One year</option>
+				<option value="2">Two years</option>
+				<option value="3">Three years</option>
+				<option value="4">Four years</option>
+          </select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+        <select name="infantGender" id="infantGender">
+         	 <option selected="selected">Select</option>
+         	 <option value="M">Male</option>
+			 <option value="F">Female</option>
+        </select></td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td colspan="2" align="center" valign="middle" bgcolor="#F6F6F6">MOBILE NUMBER :
+          <input name="mobileNo" type="text" id="mobileNo" maxlength="10" /></td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF"></td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="40" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+        <input name="infantName1" type="text" id="infantName1" placeholder="Child Passenger #2" size="25" /></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+          <select name="infantAge1" id="infantAge1">
+            <option value="-1" selected="selected">Select</option>
+            <option value="0">Below one year</option>
+            <option value="1">One year</option>
+            <option value="2">Two years</option>
+            <option value="3">Three years</option>
+            <option value="4">Four years</option>
+          </select></td>
+        <td align="center" valign="middle" bgcolor="#F6F6F6">
+        <select name="infantGender1" id="infantGender1">
+          		<option selected="selected">Select</option>
+         		<option value="M">Male</option>
+				<option value="F">Female</option>
+        </select></td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td colspan="2" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="18" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td colspan="3" align="center" valign="middle" bgcolor="#FFFFFF"><hr /></td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="18" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td colspan="3" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td colspan="2" align="center" valign="middle" bgcolor="#FFFFFF">
+        <input type="button" id="create" name="create" value="Create Autofill"  />
+		<a href="" style="display:none;" name="autofill" id="autofill">Auto Fill</a>
+        </td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">
+        <input type="reset" name="button1" id="button1" value="Reset" />
+        </td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="18" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td colspan="3" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="18" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td colspan="3" align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#FFFFFF">&nbsp;</td>
+      </tr>
+    </table></th>
+  </tr>
+  </form>
+ </table>
+<script type="text/javascript">
+
+	document.getElementById("create").onclick = function () {
+		// if (document.getElementById("checkbox").checked === true) {
+		// 	var c = document.getElementById("concessionOpt").checked = true;
+		// } else {
+		// 	var c = document.getElementById("concessionOpt").checked = false;
+		// }
+		//
+		// if (document.getElementById("1concessionOpt").checked === true) {
+		// 	var c1 = document.getElementById("1concessionOpt").checked = true;
+		// } else {
+		// 	var c1 = document.getElementById("1concessionOpt").checked = false;
+		// }
+		//
+		// if (document.getElementById("2concessionOpt").checked === true) {
+		// 	var c2 = document.getElementById("2concessionOpt").checked = true;
+		// } else {
+		// 	var c2 = document.getElementById("2concessionOpt").checked = false;
+		// }
+		//
+		// if (document.getElementById("3concessionOpt").checked === true) {
+		// 	var c3 = document.getElementById("3concessionOpt").checked = true;
+		// } else {
+		// 	var c3 = document.getElementById("3concessionOpt").checked = false;
+		// }
+		//
+		// if (document.getElementById("4concessionOpt").checked === true) {
+		// 	var c4 = document.getElementById("4concessionOpt").checked = true;
+		// } else {
+		// 	var c4 = document.getElementById("4concessionOpt").checked = false;
+		// }
+		//
+		// if (document.getElementById("5concessionOpt").checked === true) {
+		// 	var c5 = document.getElementById("5concessionOpt").checked = true;
+		// } else {
+		// 	var c5 = document.getElementById("5concessionOpt").checked = false;
+		// }
+
+		var link = "javascript: void((function(){var i=0;i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:0:psgnName'].value='"+document.railways.psgnName.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:1:psgnName'].value='"+document.railways.psgnName1.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:2:psgnName'].value='"+document.railways.psgnName2.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:3:psgnName'].value='"+document.railways.psgnName3.value+"';if(document.addPassengerForm['addPassengerForm:psdetail:4:psgnName']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:4:psgnName'].value='"+document.railways.psgnName4.value+"';};if(document.addPassengerForm['addPassengerForm:psdetail:5:psgnName']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:5:psgnName'].value='"+document.railways.psgnName5.value+"';};i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:0:psgnAge'].value='"+document.railways.psgnAge.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:1:psgnAge'].value='"+document.railways.psgnAge1.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:2:psgnAge'].value='"+document.railways.psgnAge2.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:3:psgnAge'].value='"+document.railways.psgnAge3.value+"';if(document.addPassengerForm['addPassengerForm:psdetail:4:psgnAge']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:4:psgnAge'].value='"+document.railways.psgnAge4.value+"';};if(document.addPassengerForm['addPassengerForm:psdetail:5:psgnAge']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:5:psgnAge'].value='"+document.railways.psgnAge5.value+"';};i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:0:psgnGender'].value='"+document.railways.psgnGender.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:1:psgnGender'].value='"+document.railways.psgnGender1.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:2:psgnGender'].value='"+document.railways.psgnGender2.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:3:psgnGender'].value='"+document.railways.psgnGender3.value+"';if(document.addPassengerForm['addPassengerForm:psdetail:4:psgnGender']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:4:psgnGender'].value='"+document.railways.psgnGender4.value+"';};if(document.addPassengerForm['addPassengerForm:psdetail:5:psgnGender']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:5:psgnGender'].value='"+document.railways.psgnGender5.value+"';};i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:0:berthChoice'].value='"+document.railways.berthChoice.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:1:berthChoice'].value='"+document.railways.berthChoice1.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:2:berthChoice'].value='"+document.railways.berthChoice2.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:3:berthChoice'].value='"+document.railways.berthChoice3.value+"';if(document.addPassengerForm['addPassengerForm:psdetail:4:berthChoice']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:4:berthChoice'].value='"+document.railways.berthChoice4.value+"';};if(document.addPassengerForm['addPassengerForm:psdetail:5:berthChoice']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:5:berthChoice'].value='"+document.railways.berthChoice5.value+"';};if(document.addPassengerForm['addPassengerForm:psdetail:0:foodChoice']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:0:foodChoice'].value='"+document.railways.foodChoice.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:1:foodChoice'].value='"+document.railways.foodChoice1.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:2:foodChoice'].value='"+document.railways.foodChoice2.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:3:foodChoice'].value='"+document.railways.foodChoice3.value+"';if(document.addPassengerForm['addPassengerForm:psdetail:4:foodChoice']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:4:foodChoice'].value='"+document.railways.foodChoice4.value+"';};if(document.addPassengerForm['addPassengerForm:psdetail:5:foodChoice']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:5:foodChoice'].value='"+document.railways.foodChoice5.value+"';}};if(document.addPassengerForm['addPassengerForm:psdetail:0:idCardType']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:0:idCardType'].value='"+document.railways.idCardType.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:1:idCardType'].value='"+document.railways.idCardType1.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:2:idCardType'].value='"+document.railways.idCardType2.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:3:idCardType'].value='"+document.railways.idCardType3.value+"';if(document.addPassengerForm['addPassengerForm:psdetail:4:idCardType']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:4:idCardType'].value='"+document.railways.idCardType4.value+"';};if(document.addPassengerForm['addPassengerForm:psdetail:5:idCartType']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:5:idCardType'].value='"+document.railways.idCardType5.value+"';}};if(document.addPassengerForm['addPassengerForm:psdetail:0:idCardNumber']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:0:idCardNumber'].value='"+document.railways.idCardNumber.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:1:idCardNumber'].value='"+document.railways.idCardNumber1.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:2:idCardNumber'].value='"+document.railways.idCardNumber2.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:3:idCardNumber'].value='"+document.railways.idCardNumber3.value+"';if(document.addPassengerForm['addPassengerForm:psdetail:4:idCardNumber']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:4:idCardNumber'].value='"+document.railways.idCardNumber4.value+"';};if(document.addPassengerForm['addPassengerForm:psdetail:5:idCardNumber']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:5:idCardNumber'].value='"+document.railways.idCardNumber5.value+"';}};if(document.addPassengerForm['addPassengerForm:psdetail:0:concessionOpt']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:0:concessionOpt'].checked="+document.railways.concessionOpt.checked+";i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:1:concessionOpt'].checked="+document.railways.concessionOpt1.checked+";i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:2:concessionOpt'].checked="+document.railways.concessionOpt2.checked+";i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:3:concessionOpt'].checked="+document.railways.concessionOpt3.checked+";if(document.addPassengerForm['addPassengerForm:psdetail:4:concessionOpt']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:4:concessionOpt'].checked="+document.railways.concessionOpt4.checked+";};if(document.addPassengerForm['addPassengerForm:psdetail:5:concessionOpt']){i++;console.log(i);document.addPassengerForm['addPassengerForm:psdetail:5:concessionOpt'].checked="+document.railways.concessionOpt5.checked+";}};i++;console.log(i);document.addPassengerForm['addPassengerForm:childInfoTable:0:infantName'].value='"+document.railways.infantName.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:childInfoTable:1:infantName'].value='"+document.railways.infantName1.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:childInfoTable:0:infantAge'].value='"+document.railways.infantAge.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:childInfoTable:1:infantAge'].value='"+document.railways.infantAge1.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:childInfoTable:0:infantGender'].value='"+document.railways.infantGender.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:childInfoTable:1:infantGender'].value='"+document.railways.infantGender1.value+"';i++;console.log(i);document.addPassengerForm['addPassengerForm:mobileNo'].value='"+document.railways.mobileNo.value+"';})())";
+
+		document.getElementById("autofill").href = link;
+		document.getElementById("autofill").style.display = "inline";
+	}
+
+</script>
+</body>
+</html>

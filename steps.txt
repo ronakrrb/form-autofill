@@ -1,0 +1,7 @@
+document.addPassengerForm['addPassengerForm:psdetail:0:psgnName'].value='"+document.form1.psgnName0.value+"';  ------ Paste it after the semicolon before the closing bracket ")"
+
+Press ctrl+shift+C ---> Go To Elements Tab.---> Make sure the magnifying glass is blue and not black ---> Click on the textbox for which you want to know the name. ---> Copy the name from the Elements tab.
+
+Replace addPassengerForm:psdetail:0:psgnName with other textbox names from irctc
+
+Replace psgnName0 with other textbox names from yuor form
